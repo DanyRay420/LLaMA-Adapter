@@ -13,3 +13,4 @@ https://github.com/unlimblue/KNN_CUDA/releases/download/0.2/KNN_CUDA-0.2-py3-non
 huggingface_hub
 transformers
 open3d
+aiohttp>=3.10.11 # not directly required, pinned by Snyk to avoid a vulnerability
