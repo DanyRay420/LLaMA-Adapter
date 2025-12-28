@@ -1,4 +1,4 @@
-transformers==4.28.1
+transformers==5.0.0rc1
 huggingface-hub==0.14.1
 torch==2.0.1
 tqdm==4.65.0
