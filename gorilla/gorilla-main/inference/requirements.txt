@@ -1,7 +1,9 @@
 transformers==4.28.1
 huggingface-hub==0.14.1
-torch==2.0.1
+torch==2.9.0
 tqdm==4.65.0
 prompt_toolkit==3.0.38
 sentencepiece==0.1.99
 accelerate==0.19.0
+filelock>=3.20.3 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
